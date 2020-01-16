@@ -6,8 +6,8 @@ import control_msgs.msg
 import trajectory_msgs.msg
 import rospy
 
-from .arm_joints import ArmJoints
-from .moveit_goal_builder import MoveItGoalBuilder
+from arm_joints import ArmJoints
+from moveit_goal_builder import MoveItGoalBuilder
 from moveit_msgs.msg import MoveItErrorCodes, MoveGroupAction
 from moveit_msgs.srv import GetPositionIK, GetPositionIKRequest
 
